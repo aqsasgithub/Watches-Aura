@@ -1,0 +1,94 @@
+.about-us-container {
+    position: relative; /* Needed to position the pseudo-element */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    z-index: 1; 
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/image1.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: -1; 
+  }
+  
+  .about-us-container h1, 
+  .about-us-container h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .about-us-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-us-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-us-container ul li {
+    margin-bottom: 10px;
+    padding-left: 1em;
+    text-indent: -1em;
+    color: #555;
+  }
+  
+  .about-us-container ul li::before {
+    content: "• ";
+    color: #888;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .about-us-container p,
+  .about-us-container ul li {
+    line-height: 1.8;
+  }
+  
+  .about-us-container .text-center {
+    text-align: center;
+  }
+  
+  .about-us-container .highlight {
+    color: #017bff; /* Accent color for highlighting important text */
+  }
+  
+  .fixed-background-section {
+    height: 300px;
+    background-image: url('/images/image2.jpg');
+    opacity: 0.7;
+    background-size: cover; 
+    background-attachment: fixed;   
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
