@@ -33,7 +33,6 @@ body {
   color: #f8f9fa;
 }
 
-/* Responsiveness */
 @media (max-width: 576px) {
   .nav-clicks {
       font-size: 15px;
@@ -69,21 +68,19 @@ body {
 .header.scrolled {
   background-color: black; 
 }
-/* Navbar link hover effect */
 .nav-heads:hover {
-  color: #7c7878; /* Darker color on hover */
+  color: #7c7878; 
 }
 
-/* Dropdown menu styles */
 .dropdown:hover .dropdown-menu {
-  display: block; /* Show the dropdown on hover */
+  display: block; 
   transition: all 0.3s ease;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #000; /* Black background */
+  background-color: #000;
   margin-top: 2px;
   padding: 2px 0;
   border-radius: 5px;
@@ -96,13 +93,12 @@ body {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #333; /* Darker background on hover */
+  background-color: #333; 
   color: #ffffff;
 }
 
 
 
-/* Hero Section Styling */
 .hero-link {
   display: block;
   text-decoration: none;
@@ -201,7 +197,6 @@ body {
 }
 
 
-/* Carousel Category Blocks */
 .carousel-item {
   text-align: center;
   padding: 20px;
