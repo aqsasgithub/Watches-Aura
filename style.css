@@ -307,7 +307,7 @@ body {
   height: 60px; 
   width: 60px;  
   background-color: gray;
-  background-image: url('/images/top.png');
+  background-image: url('images/top.png');
   background-size: contain;
   border-radius: 50%;
   display: flex;
