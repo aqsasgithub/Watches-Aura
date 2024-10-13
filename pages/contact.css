@@ -34,7 +34,6 @@ body {
   color: #f8f9fa;
 }
 
-/* Responsiveness */
 @media (max-width: 576px) {
   .nav-clicks {
       font-size: 15px;
@@ -66,21 +65,19 @@ body {
   z-index: 1000; 
 }
 
-/* Navbar link hover effect */
 .nav-heads:hover {
-  color: #7c7878; /* Darker color on hover */
+  color: #7c7878; 
 }
 
-/* Dropdown menu styles */
 .dropdown:hover .dropdown-menu {
-  display: block; /* Show the dropdown on hover */
+  display: block;
   transition: all 0.3s ease;
 }
 
 .dropdown-menu {
   display: none;
   position: absolute;
-  background-color: #000; /* Black background */
+  background-color: #000;
   margin-top: 2px;
   padding: 2px 0;
   border-radius: 5px;
@@ -93,7 +90,7 @@ body {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #333; /* Darker background on hover */
+  background-color: #333; 
   color: #ffffff;
 }
 
@@ -139,7 +136,6 @@ form .btn-primary:hover {
 margin-top: 80px;
 }
 
-/* Fade-in animation */
 @keyframes fadeIn {
     from {
       opacity: 0;
@@ -216,49 +212,49 @@ margin-top: 80px;
 
 @media (max-width: 768px) {
   #footer {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items */
+    flex-direction: column; 
+    align-items: center; 
     height: 1000px;
   }
 
   #inner1, #inner2 {
-    flex-direction: column; /* Stack inner divs vertically */
-    align-items: center; /* Center inner divs */
+    flex-direction: column; 
+    align-items: center;
     width: 100%;
     margin: 10px 0;
   }
 
   #divmd1, #divsm1, #divmd2, #divsm2 {
-    max-width: 90%; /* Allow more width for smaller screens */
+    max-width: 90%;
     margin: 15px 0;
   }
 
   #footer-head {
-    font-size: 1.2em; /* Adjust font size for headings */
+    font-size: 1.2em;
   }
 }
 
 @media (max-width: 576px) {
   #footer {
-    padding: 10px; /* Less padding for smaller devices */
+    padding: 10px; 
     height: 1000px;
   }
 
   #inner1, #inner2 {
-    flex-direction: column; /* Stack inner divs vertically */
-    align-items: center; /* Center inner divs */
+    flex-direction: column;
+    align-items: center; 
   }
 
   #divmd1, #divsm1, #divmd2, #divsm2 {
-    max-width: 100%; /* Full width on very small screens */
+    max-width: 100%; 
     margin: 10px 0;
   }
 
   #footer-head {
-    font-size: 1em; /* Further adjust font size for headings */
+    font-size: 1em;
   }
 
   .fa-envelope {
-    font-size: 30px; /* Adjust icon size */
+    font-size: 30px; 
   }
 }
