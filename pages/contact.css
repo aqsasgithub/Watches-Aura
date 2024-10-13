@@ -48,10 +48,17 @@ body {
   }
 
 #logo {
-      width: 100px;
+      width: 57px;
       height: auto;
       margin-left: 20px;
   }
+}
+
+#logo {
+  width: 57px; 
+  height: auto; 
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .header {
   display: flex;
@@ -60,6 +67,7 @@ body {
   position: fixed; 
   top: 0; 
   left: 0; 
+  height: 80px;
   border-bottom: 1px solid #c9c3c3;
   background-color: black;
   z-index: 1000; 
