@@ -120,10 +120,6 @@ body {
   
     }
   
-    .dropdown:hover .dropdown-menu {
-      display: none;
-    }
-  
     .dropdown-menu {
       position: static;
       background-color: #333;

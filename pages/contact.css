@@ -120,12 +120,10 @@ body {
 
   }
 
-  
-
-
   .dropdown-menu {
     position: static;
     background-color: #333;
+    color: #fff;
   }
 }
 
