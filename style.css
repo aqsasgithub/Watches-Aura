@@ -52,6 +52,35 @@ body {
       margin-left: 20px;
   }
 }
+
+
+@media (min-width: 768px) {
+  .header {
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .title {
+      margin-left: 20px;
+      margin-top: 20px;
+      text-align: center;
+      font-weight: 700;
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+
+.nav-clicks {
+  margin: 10px;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-heads{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f8f9fa;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -87,18 +116,57 @@ body {
 }
 
 .dropdown-menu .dropdown-item {
-  color: #f8f9fa;
   padding: 10px 20px;
   text-decoration: none;
 }
 
 .dropdown-menu .dropdown-item:hover {
   background-color: #333; 
-  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+  }
+
+  .navbar{
+    margin-left: 220px;
+
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background-color: #333;
+  }
 }
 
 
+@media (max-width: 576px) {
+  .nav-clicks {
+      font-size: 15px;
+  }
 
+  .title {
+      font-size: 20px; 
+  }
+
+  .carousel-item img {
+      height: 150px; 
+  }
+
+#logo {
+      width: 60px;
+      height: auto;
+      margin-left: 20px;
+  }
+}
 .hero-link {
   display: block;
   text-decoration: none;
@@ -320,7 +388,6 @@ body {
   width: 30px; 
 }
 
-/* Full-width Heading */
 .gallery-heading {
   width: 100%;
   text-align: center;
@@ -371,14 +438,13 @@ font-family: 'Courier New', Courier, monospace;
   margin: 10px 0 0;
 }
 
-/* Carousel Image Styling */
 #galleryCarousel .carousel-item {
   text-align: center;
 }
 
 .gallery-img {
-  width: 200px; /* Full width within each column */
-  height: 200px; /* Set height for uniform size */
+  width: 200px; 
+  height: 200px; 
   object-fit: cover;
   padding: 5px;
   transition: transform 0.3s ease;
@@ -387,7 +453,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .gallery-img:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05);
 }
 
 .category-block {
