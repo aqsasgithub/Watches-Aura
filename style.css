@@ -130,12 +130,8 @@ body {
 }
 
 @media (max-width: 768px) {
-  .navbar-toggler {
-  }
-
   .navbar{
     margin-left: 220px;
-
   }
 
   .dropdown:hover .dropdown-menu {
@@ -145,6 +141,7 @@ body {
   .dropdown-menu {
     position: static;
     background-color: #333;
+    color: #fff;
   }
 }
 

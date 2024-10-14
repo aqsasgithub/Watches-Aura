@@ -115,9 +115,6 @@ body {
   }
   
   @media (max-width: 768px) {
-    .navbar-toggler {
-    }
-  
     .navbar{
       margin-left: 220px;
   
