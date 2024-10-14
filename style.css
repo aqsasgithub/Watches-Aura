@@ -134,9 +134,8 @@ body {
     margin-left: 220px;
   }
 
-  .dropdown:hover .dropdown-menu {
-    display: none;
-  }
+  
+
 
   .dropdown-menu {
     position: static;
