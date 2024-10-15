@@ -1,5 +1,8 @@
+.nav-heads{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .about-us-container {
-    position: relative; /* Needed to position the pseudo-element */
+    position: relative;
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;

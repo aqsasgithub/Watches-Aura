@@ -14,8 +14,8 @@ body {
 }
 
 .nav-heads{
-  font-family: Arial, Helvetica, sans-serif;
-  color: #f8f9fa;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
 }
 
 @media (max-width: 576px) {
@@ -215,7 +215,12 @@ margin-top: 80px;
     visibility: visible;
   }
   
-  
+.storeLocators{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
 
 #footer {
   display: flex;
