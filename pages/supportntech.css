@@ -156,7 +156,7 @@ body {
 .custom-background{
     height: 200px;
     width: 100%;
-    background-image: url('../images/image2.jpg');
+    background-image: url('../images/tech2.jpg');
     background-attachment: fixed;
     background-size: cover;
     margin-top: 60px;
@@ -181,7 +181,7 @@ body {
 .nav-heads{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.tech-container {
+.about-us-container {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -195,7 +195,7 @@ body {
     margin-bottom: 20px;
   }
   
-  .tech-container::before {
+  .about-us-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -209,65 +209,65 @@ body {
     z-index: -1; 
   }
   
-  .tech-container h1, 
-  .tech-container h2 {
+  .about-us-container h1, 
+  .about-us-container h2 {
     text-align: center;
     font-weight: 700;
     color: #333;
   }
   
-  .tech-container h1 {
+  .about-us-container h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   
-  .tech-container h2 {
+  .about-us-container h2 {
     font-size: 2rem;
     margin-top: 30px;
     margin-bottom: 20px;
   }
   
-  .tech-container p {
+  .about-us-container p {
     margin-bottom: 20px;
     font-size: 1rem;
     color: #555;
   }
   
-  .tech-container ul {
+  .about-us-container ul {
     list-style: none;
     padding: 0;
   }
   
-  .tech-container ul li {
+  .about-us-container ul li {
     margin-bottom: 10px;
     padding-left: 1em;
     text-indent: -1em;
     color: #555;
   }
   
-  .tech-container ul li::before {
+  .about-us-container ul li::before {
     content: "• ";
     color: #888;
     font-weight: bold;
     margin-right: 10px;
   }
   
-  .tech-container p,
-  .tech-container ul li {
+  .about-us-container p,
+  .about-us-container ul li {
     line-height: 1.8;
   }
   
-  .tech-container .text-center {
+  .about-us-container .text-center {
     text-align: center;
   }
   
-  .tech-container .highlight {
+  .about-us-container .highlight {
     color: #017bff; 
   }
   
   .fixed-background-section {
     height: 300px;
-    background-image: url('../images/tech2.jpg');
+    background-image: url('../images/image2.jpg');
     opacity: 0.7;
     background-size: cover; 
     background-attachment: fixed;   
