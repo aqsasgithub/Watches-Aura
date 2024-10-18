@@ -181,7 +181,7 @@ body {
 .nav-heads{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.about-us-container {
+.tech-container {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -195,7 +195,7 @@ body {
     margin-bottom: 20px;
   }
   
-  .about-us-container::before {
+   .tech-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -209,59 +209,59 @@ body {
     z-index: -1; 
   }
   
-  .about-us-container h1, 
-  .about-us-container h2 {
+  .tech-container h1, 
+   tech-container h2 {
     text-align: center;
     font-weight: 700;
     color: #333;
   }
   
-  .about-us-container h1 {
+  .tech-container h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
   }
   
-  .about-us-container h2 {
+  .tech-container h2 {
     font-size: 2rem;
     margin-top: 30px;
     margin-bottom: 20px;
   }
   
-  .about-us-container p {
+  .tech-container p {
     margin-bottom: 20px;
     font-size: 1rem;
     color: #555;
   }
   
-  .about-us-container ul {
+  .tech-container ul {
     list-style: none;
     padding: 0;
   }
   
-  .about-us-container ul li {
+  .tech-container ul li {
     margin-bottom: 10px;
     padding-left: 1em;
     text-indent: -1em;
     color: #555;
   }
   
-  .about-us-container ul li::before {
+  .tech-container ul li::before {
     content: "• ";
     color: #888;
     font-weight: bold;
     margin-right: 10px;
   }
   
-  .about-us-container p,
-  .about-us-container ul li {
+  .tech-container p,
+  .tech-container ul li {
     line-height: 1.8;
   }
   
-  .about-us-container .text-center {
+  .tech-container .text-center {
     text-align: center;
   }
   
-  .about-us-container .highlight {
+  .tech-container .highlight {
     color: #017bff; 
   }
   

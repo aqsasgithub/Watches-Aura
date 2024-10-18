@@ -155,15 +155,6 @@ body {
   margin-left: 20px;
 }
 
-.hero-section {
-  height: 70vh;
-  background-image: url('../images/premier1.jpg'); 
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  padding-left: 50px;
-  opacity: 1;
-}
 .a-btn {
   align-content: start;
   margin-top: 0px;

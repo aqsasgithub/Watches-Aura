@@ -66,22 +66,20 @@ function adjustHeader() {
   }
 }
 
-// Adjust on both scroll and page load
 document.addEventListener("scroll", adjustHeader);
 document.addEventListener("DOMContentLoaded", adjustHeader);
 
-//gallery
     const carousel = document.getElementById('galleryCarousel');
     let currentIndex = 0;
     const items = carousel.querySelectorAll('.carousel-item');
 
     function slideImages() {
-        currentIndex = (currentIndex + 1) % items.length; // Move to the next image
+        currentIndex = (currentIndex + 1) % items.length;
         const currentItem = items[currentIndex];
         const activeItem = items[(currentIndex + items.length - 1) % items.length];
 
-        activeItem.classList.remove('active'); // Remove active class from the previous item
-        currentItem.classList.add('active'); // Add active class to the current item
+        activeItem.classList.remove('active');
+        currentItem.classList.add('active');
     }
 
-    setInterval(slideImages, 5000); // Slide every 5 seconds
+    setInterval(slideImages, 5000); 
